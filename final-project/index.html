@@ -17,12 +17,10 @@
 <body>
     <!--debo hacer que cada parte del menu cuando le pase el mouse debe verse en amarillo-->
     <!-- Main container for the entire page content -->
-    <div class="container"> </div> 
-            <header class="masterhead">
+            <header>
+                <nav>
     <!-- Displays the company logo -->
                 <img src="./images/logo.png" alt="Three Star Media Logo" class="logo">
-                <!-- Navigation bar with links to different sections of the page -->
-                <nav class="nav-bar">
                     <ul>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
@@ -38,18 +36,17 @@
                       <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     
                 </div>
-            </header>
-
+            
             <!-- Banner section with welcome message and call to action -->
             <div class="banner">
                 <img src="./images/main-banner.jpg" alt="Office of Three Star Media" class="banner">
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore consectetur illum praesentium possimus assumenda tenetur. Sit voluptatibus porro omnis!</p>
-                <p>Connect with us</p> <!--debo arreglar esto como en todos los demas ponerlos como icor o algo asi-->
-                <!-- SVG icon representing connectivity -->
-                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg><!--esto tambien debo cambiarlo y ponerle esto <i class="fa-solid fa-caret-right"></i>-->
+                <a href="#">Connect with us<i class="icon"></i></a>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"></path></svg>
                 
             </div>
+            </header>
               
  <!-- Main content of the website -->
     <main class="content">
@@ -73,7 +70,7 @@
                         <h3>Digital Transformation</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea nam, explicabo veniam saepe maiores molestiae natus perspiciatis maxime.</p>
                     </div>
-                    <p>Digital Plans</p>
+                    <a href="#">Digital Plans<i class="icon"></i></a>
                     <!-- SVG icon for additional information -->
                     <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
             </section>
@@ -86,7 +83,7 @@
                         <h3>Marketing</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea nam, explicabo veniam saepe maiores molestiae natus perspiciatis maxime.</p>
                     </div>
-                    <p>Marketing Plans</p><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
+                    <a href="#">Marketing Plans<i class="icon"></i></a><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
             </section>
             <section class="video-production">
                 <div class="video-production"></div>
@@ -95,7 +92,7 @@
                         <h3>Video Production</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea nam, explicabo veniam saepe maiores molestiae natus perspiciatis maxime.</p>
                     </div>
-                    <p>Video Plans</p><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
+                    <a href="#">Video Plans<i class="icon"></i></a><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
             </section>
             <section class="web-development">
                 <div class="web-development"></div>
@@ -104,7 +101,7 @@
                         <h3>Web Development</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea nam, explicabo veniam saepe maiores molestiae natus perspiciatis maxime.</p>
                     </div>
-                    <p>Web Plans</p><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
+                    <a href="#">Web Plans<i class="icon"></i></a><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
             </section>
             <section class="print">
                 <div class="print"></div>
@@ -113,7 +110,7 @@
                         <h3>Print</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea nam, explicabo veniam saepe maiores molestiae natus perspiciatis maxime.</p>
                     </div>
-                    <p>Print Plans</p><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
+                    <a href="#">Print Plans<i class="icon"></i></a><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
             </section>
             <section class="vision">
                 <div class="vision"></div>
@@ -122,7 +119,7 @@
                         <h3>Vision</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea nam.</p>
                     </div>
-                    <p>Learn More</p><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
+                    <a href="#">Learn More<i class="icon"></i></a><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23 12l-22 12v-24l22 12zm-21 10.315l18.912-10.315-18.912-10.315v20.63z"/></svg>
             </section>
             <!-- Content for other services follows a similar pattern -->
 
