@@ -1,1 +1,167 @@
+/* General Reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a, img, table, input, button, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 100px;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #c78c06;
+    font-size: 16px;
+    padding: 20px 15px; /* Añade padding para que el recuadro tenga espacio */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+header ul li a:hover {
+    background-color: #c78c06; /* Color de fondo del recuadro */
+    color: #222; /* Cambia el color de la letra */
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #c78c06;
+}
+
+header .search-bar button {
+    background-color: #222;
+    border: 1px solid #c78c06;
+    padding: 3px 5px;
+    color: #c78c06;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner-container {
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.banner-container img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-container .overlay {
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro con opacidad */
+    padding: 40px 60px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo */
+    color: white;
+    text-align: left; /* Alinea el texto al lado izquierdo */
+    margin: 0 auto;
+}
+
+.banner-container .overlay h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bold; /* Asegura que el texto esté en negrita */
+}
+
+.banner-container .overlay p {
+    font-size: 16px;
+    margin-top: 40px; /* Más espacio entre el título y el párrafo */
+    margin-bottom: 20px; /* Reduce el espacio hacia abajo */
+}
+
+.banner-container .overlay a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #c78c06; /* Fondo del botón */
+    color: #222; /* Color del texto */
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.banner-container .overlay a svg {
+    fill: #222; /* Color del ícono */
+}
+
+/* Main Sections */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.about {
+    background-color: #ffe6ac; /* Fondo amarillo */
+    font-size: 3rem;
+    line-height: 6rem;
+}
+.about-content {
+    max-width: 1200px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido */
+    display: flex; /* Alinea los elementos internos en una fila */
+    align-items: center; /* Alinea verticalmente */
+    gap: 30px; /* Espaciado entre imagen y texto */
+}
+
+.about img {
+    width: 50%; /* La imagen ocupa el 50% del ancho del contenedor interno */
+    float: left;
+}
+
+.about div {
+    flex: 1; /* El texto ocupa el espacio restante */
+}
+
+.about p {
+    font-size: 16px; /* Tamaño de texto legible */
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #222; /* Color del texto */
+    margin-bottom: 20px; /* Espaciado entre párrafos */
+}
+
+
+
 
